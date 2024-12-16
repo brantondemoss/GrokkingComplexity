@@ -1,7 +1,7 @@
 # GrokkingComplexity
 Code for [The Complexity Dynamics of Grokking](http://arxiv.org/abs/2412.09810)
 
-Running coffee.py with the relevant options will train a transformer on modular arithmetic data, and compute the complexity of the network throughout training. We find that with proper regularization, network complexity consistently exhibits a characteristic rise and fall of complexity:
+Running [coffee.py](coffee.py) with the relevant options will train a transformer on modular arithmetic data, and compute the complexity of the network throughout training. We find that with proper regularization, network complexity consistently exhibits a characteristic rise and fall of complexity:
 
 ![](complexity_regularized.png)
 
